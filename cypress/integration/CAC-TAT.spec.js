@@ -363,7 +363,7 @@ Cypress._.times(5, () => {
         // })
     })
 
-    it.only('encontra o gato escondido', () => {
+    it('encontra o gato escondido', () => {
        
         cy.get('#cat')
           .should('not.be.visible')
